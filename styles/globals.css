@@ -1,6 +1,8 @@
 html,
 body {
-  padding: 0;
+  padding-top: 15px;
+  padding-right: 10%;
+  padding-left: 10%;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -13,4 +15,11 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+@media (max-width: 720px) {
+  html,body {
+    padding-right: 3%;
+    padding-left: 3%;
+  }
 }

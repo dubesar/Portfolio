@@ -1,0 +1,10 @@
+.stack {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px
+}
+
+.stackComponent {
+    margin-top: 50px;
+}

@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Hubballi&family=Open+Sans:wght@300&family=Poppins:wght@500&display=swap');
+
+.navbar {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    gap: 30px;
+    font-size: 18px;
+    justify-content: flex-end;
+}
