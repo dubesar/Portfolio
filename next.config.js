@@ -5,6 +5,8 @@ const withImages = require('next-images')
 const nextConfig = {
   reactStrictMode: true,
   images: {
+    dangerouslyAllowSVG: true,
+    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
     domains: ['s2.svgbox.net', 'img.icons8.com']
   },
 }
