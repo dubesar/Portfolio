@@ -19,12 +19,6 @@ export default function Stack() {
                 <Image src="https://s2.svgbox.net/files.svg?ic=git" width="60" height="60" alt="js"/>
                 <Image src="https://s2.svgbox.net/files.svg?ic=pgsql" width="60" height="60" alt="js"/>
             </div>
-            <div className="contribs">
-                <div className="herotitle">Contributions...</div>
-                <div style={{marginTop: 30}}>
-                    <Image src="https://ghchart.rshah.org/dubesar" width="1000" height="150" alt="github contribs"/>
-                </div>
-            </div>
         </div>
     )
 }
