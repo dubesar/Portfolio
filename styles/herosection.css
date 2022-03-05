@@ -34,8 +34,8 @@
 
 .buttonComp {
     padding: 15px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     border: 1px solid black;
     border-radius: 5px;
     display: flex;
