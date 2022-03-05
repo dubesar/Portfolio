@@ -12,6 +12,7 @@ export default async (req, res) => {
                             title
                             brief
                             slug
+                            coverImage
                         }
                     }
                 }

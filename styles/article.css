@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+.articleGrid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+    margin-top: 30px;
+}
+
+.articleCard {
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+
+.articleTitle {
+    font-weight: 500;
+}
+
+.articleBrief {
+    text-overflow: ellipsis;
+}
+
+@media (max-width: 720px) {
+    .articleGrid {
+        grid-template-columns: auto;
+    }
+}

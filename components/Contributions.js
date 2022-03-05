@@ -1,7 +1,6 @@
 import GitHubCalendar from 'react-github-calendar' 
 
-function Contributions({article}) {
-    console.log(article)
+function Contributions() {
     return (
         <>
             <div className="contribs">
