@@ -19,6 +19,7 @@
 
 .articleBrief {
     text-overflow: ellipsis;
+    font-weight: 300;
 }
 
 @media (max-width: 720px) {
