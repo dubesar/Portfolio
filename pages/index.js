@@ -25,7 +25,7 @@ export async function getStaticProps({context}) {
         query {
             user(username: "dubesar") {
                 publication {
-                    posts(page: 1) {
+                    posts(page: 3) {
                         title
                         brief
                         slug
