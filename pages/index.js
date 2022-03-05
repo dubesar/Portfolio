@@ -41,6 +41,6 @@ export async function getStaticProps({context}) {
       props: {
           article: data
       },
-      revalidate: 10000
+      revalidate: 100000
   }
 }
