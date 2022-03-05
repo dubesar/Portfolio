@@ -18,7 +18,7 @@ export default function Home({article}) {
 }
 
 export async function getStaticProps(context) {
-  const res = await axios.get('http://localhost:3000/api/article?page=1&username=dubesar');
+  const res = await axios.get('https://portfolio-dubesar.vercel.app/api/article?page=1&username=dubesar');
 
   return {
       props: {
