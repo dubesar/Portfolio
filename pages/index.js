@@ -4,6 +4,8 @@ import Navbar from "../components/Navbar";
 import Stack from "../components/Stack";
 import axios from 'axios';
 import Articles from "../components/Articles";
+import client from "../lib/graphql";
+import { gql } from '@apollo/client';
 
 export default function Home({article}) {
   return (
@@ -17,12 +19,27 @@ export default function Home({article}) {
   )
 }
 
-export async function getStaticProps(context) {
-  const res = await axios.get(`https://portfolio-dubesar.vercel.app/api/article?page=1&username=dubesar`);
+export async function getStaticProps({context}) {
+  const { data } = await client.query({
+    query: gql`
+        query {
+            user(username: "dubesar") {
+                publication {
+                    posts(page: 1) {
+                        title
+                        brief
+                        slug
+                        coverImage
+                    }
+                }
+            }
+        }
+    `
+  });
 
   return {
       props: {
-          article: res.data
+          article: data
       },
       revalidate: 10000
   }
