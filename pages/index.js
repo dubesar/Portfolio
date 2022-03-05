@@ -2,7 +2,6 @@ import Contributions from "../components/Contributions";
 import HeroSection from "../components/HeroSection";
 import Navbar from "../components/Navbar";
 import Stack from "../components/Stack";
-import axios from 'axios';
 import Articles from "../components/Articles";
 import client from "../lib/graphql";
 import { gql } from '@apollo/client';
