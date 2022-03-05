@@ -24,6 +24,6 @@ export async function getStaticProps(context) {
       props: {
           article: res.data
       },
-      revalidate: 10 // 10 seconds 
+      revalidate: 10000
   }
 }
