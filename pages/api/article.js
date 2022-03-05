@@ -1,7 +1,7 @@
 import client from "../../lib/graphql";
 import { gql } from '@apollo/client';
 
-export default async (req, res) => {
+export default async function handler(req, res)  {
 
     const { data } = await client.query({
         query: gql`
@@ -19,8 +19,6 @@ export default async (req, res) => {
             }
         `
     });
-
-    console.log(data);
 
     res.status(200).json(data);
 }
