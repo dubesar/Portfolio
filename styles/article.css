@@ -18,6 +18,7 @@
 }
 
 .articleBrief {
+    font-size: 12px;
     text-overflow: ellipsis;
     font-weight: 300;
 }
