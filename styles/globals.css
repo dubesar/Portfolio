@@ -19,7 +19,7 @@ a {
 
 @media (max-width: 720px) {
   html,body {
-    padding-right: 3%;
-    padding-left: 3%;
+    padding-right: 1%;
+    padding-left: 1%;
   }
 }
