@@ -24,7 +24,7 @@ export default function Achievements() {
         {
             position: 'Winner',
             name: 'ETHIndia',
-            prize: 'Winner of ETHIndia Matic Prize at ETHIndia - one of biggest Blockchain hackathons in the world'
+            prize: 'Winner of Matic Prize at ETHIndia - one of biggest Blockchain hackathons in the world'
         },
         {
             position: 'Winner',
