@@ -5,12 +5,14 @@ import Articles from "../components/Articles";
 import client from "../lib/graphql";
 import { gql } from '@apollo/client';
 import { PopupWidget } from "react-calendly";
+import Achievements from "../components/Timeline";
 
 export default function Home({article}) {
   return (
     <div>
       <HeroSection />
       <Stack />
+      <Achievements />
       <Contributions />
       <Articles article={article}/>
       <div id="contact"></div>
