@@ -4,8 +4,10 @@ import Stack from "../components/Stack";
 import Articles from "../components/Articles";
 import client from "../lib/graphql";
 import { gql } from '@apollo/client';
-import { PopupWidget } from "react-calendly";
+import dynamic from 'next/dynamic'
 import Achievements from "../components/Timeline";
+
+const {PopupWidget} = { PopupWidget:  dynamic(() => import('react-calendly').then((module => module.PopupWidget)))}
 
 export default function Home({article}) {
   return (
