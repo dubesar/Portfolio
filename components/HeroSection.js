@@ -1,4 +1,4 @@
-import Button from "./Button";
+import Image from "next/image"
 
 export default function HeroSection() {
     return (
@@ -6,7 +6,12 @@ export default function HeroSection() {
             <div className="herotitle">Howdy! I’m Sarvesh Dubey...</div>
             <p className="heroinfo">I am a <span className="spacing">Full Stack Developer</span> and <span className="spacing">an Avid Reader</span> with a knack for building things. Currently building an Integrations stack at LambdaTest. My Educational Background includes B.Tech from NIT Surat.</p>
             <div className="buttonSection">
-                <Button text={'Find me on Twitter'} icon="https://img.icons8.com/color/144/000000/twitter--v1.png" link={'https://twitter.com/Sarvesh12601156'} />
+                <Image onClick={() => {
+                    window.location.href = 'https://twitter.com/Sarvesh12601156'
+                }} src="https://s2.svgbox.net/social.svg?ic=twitter" width="30" height="30" alt="twitter"/>
+                <Image onClick={() => {
+                    window.location.href = 'https://github.com/dubesar'
+                }} src="https://s2.svgbox.net/social.svg?ic=github" width="30" height="30" alt="github"/>
             </div>
         </div>
     )

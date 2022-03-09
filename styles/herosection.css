@@ -51,5 +51,7 @@
 
 .buttonSection {
     display: flex;
-    gap: 10px
+    gap: 20px;
+    align-items: center;
+    cursor: pointer;
 }
