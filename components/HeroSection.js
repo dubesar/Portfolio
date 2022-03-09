@@ -12,6 +12,9 @@ export default function HeroSection() {
                 <Image onClick={() => {
                     window.location.href = 'https://github.com/dubesar'
                 }} src="https://s2.svgbox.net/social.svg?ic=github" width="30" height="30" alt="github"/>
+                <Image onClick={() => {
+                    window.location.href = 'https://www.linkedin.com/in/sarvesh-dubey-1b1505143/'
+                }} src="https://s2.svgbox.net/social.svg?ic=linkedin" width="30" height="30" alt="linkedin"/>
             </div>
         </div>
     )
