@@ -15,7 +15,7 @@ export default function ArticleCard(article) {
 
     const onClickLink = () => {
         window.open(
-            `https://hashnode.com/${article.slug}`,
+            `https://dubesar.hashnode.dev/${article.slug}`,
             '_blank' // <- This is what makes it open in a new window.
         );
     }
