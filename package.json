@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postbuild": "next-sitemap"
   },
   "dependencies": {
     "@apollo/client": "^3.5.10",
@@ -30,6 +31,7 @@
   "devDependencies": {
     "eslint": "8.10.0",
     "eslint-config-next": "12.1.0",
+    "next-sitemap": "^2.5.14",
     "react-github-calendar": "^3.2.2"
   }
 }
